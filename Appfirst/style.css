@@ -1,0 +1,96 @@
+/* ヘッダー */
+.header{
+  width: 1366px;
+  height: 100px;
+  background-color: #dbdbdb;
+  display: flex;
+  padding-left: 30px;
+  padding-right: 100px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo{
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.menu{
+  display: flex;
+}
+
+
+.lin{
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  padding-left: 70px;
+  text-decoration: none;
+}
+
+/* メイン */
+
+.main{
+  width: 1366px;
+  height: 700px;
+  position: relative;
+}
+
+.picture{
+  width: 1366px;
+  height: 700px;
+  object-fit: cover;
+  opacity: 30%;
+}
+
+/* フッター */
+.footer{
+  width: 1366px;
+  height: 70px;
+  font-size: 16px;
+  color: #959393;
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.in-text{
+  display:flex;
+  position: absolute;
+  top: calc(50% - 35px);
+  justify-content: space-between;
+}
+
+.colum{
+  flex-direction: column;
+}
+
+.text-main{
+  font-size: 70px;
+  font-weight: 600;
+  padding-bottom: 10px;
+  padding-left: 60px;
+}
+
+.text-mini{
+  font-size: 18px;
+  padding-left: 66px;
+}
+
+.text-link{
+  width: 250px;
+  height: 100px;
+  line-height: 100px;
+  background-color: #F0F0F0;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.text-link a{
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  color: black; 
+}
